@@ -1,1 +1,43 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  background: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  height: 400px;
+  font-size: 120px;
+  width: 250px;
+  border: 1px solid black;
+  border-radius: 5px;
+  position: relative;
+  margin-top: 40px;
+}
+#topsuite {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  font-size: 80px;
+}
+#center {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+#bottomsuite {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  font-size: 80px;
+  transform: rotate(180deg);
+}
